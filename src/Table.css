@@ -1,0 +1,42 @@
+.table-container {
+  
+  background-color: white;
+  color: #6a5d5d;
+}
+
+
+
+tbody {
+  display:block;
+  overflow: scroll;
+  height: 400px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table  tr {
+  display: flex;
+  justify-content: space-between;
+  
+  padding: 5px; 
+}
+tbody  tr:nth-of-type(odd) {
+  background-color: #f3f2f8;
+}
+
+thead {
+  background-color: white;
+}
+
+.table td {
+  display: flex;
+  align-items: center;
+}
+
+.table img {
+  height: 25px;
+  width: 40px;
+  margin-right: 10px;
+}
